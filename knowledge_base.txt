@@ -1,8 +1,0 @@
-Missile(M1) 
-American(West)
-(Missile(M1)->Weapon(M1))
-Owns(Nono,M1)
-((Missile(M1)^Owns(Nono,M1))->Sells(West,M1,Nono))
-(Enemy(M1,America)->Hostile(M1))
-Enemy(Nono,America)
-((American(West)^Weapon(M1)^Sells(West,M1,Nono)^Hostile(Nono))->Criminal(West))
